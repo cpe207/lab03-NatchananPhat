@@ -1,0 +1,85 @@
+.navibar {
+    background-color: #263281;
+    overflow: hidden;
+}
+.navibar a {
+    float: right;
+    color: #fee7d9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family:'Comic Sans MS';
+}
+.navibar a:hover {
+    background-color: #fee7d9;
+    color: #263281;
+}
+.bg {
+    display: flex;
+    padding: 5rem;
+    text-decoration: none;
+    font-family:'Comic Sans MS';
+    gap: 3rem;
+    align-items: center
+}
+.circle{
+    border: 10px solid #806958;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.bgtitle {
+    font-size: 50px;
+    color: #263281;
+}
+.bgmore{
+    font-size: 26px;
+    color: #806958;
+}
+.bgmain{
+    font-size: 40px;
+    color: #263281;
+    text-decoration: none;
+    font-family:'Comic Sans MS';
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.bgtitle2{
+    font-size: 30px;
+    color: #263281;
+    font-family:'Comic Sans MS';
+}
+.bgmore2{
+    font-size: 22px;
+    color: #806958;
+    font-family:'Comic Sans MS';
+}
+.frame{
+    border: 10px solid #806958;
+}
+.img{
+    border-bottom-left-radius: .25rem;
+    border-top-left-radius: .25rem;
+    max-width: 100%;
+    height: auto;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fee7d9;
+    background-clip: border-box;
+    border: 1px solid #806958;
+    border-radius: .25rem;
+}
+.cardlevel1{
+    flex: 0 0 auto;
+    width: 33.33%;
+}
+.cardlevel2{
+    flex: 0 0 auto;
+    width: 66.67%;
+}
