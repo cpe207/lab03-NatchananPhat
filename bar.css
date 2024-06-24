@@ -42,13 +42,14 @@
     text-decoration: none;
     font-family:'Comic Sans MS';
     text-align: center;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 .bgtitle2{
     font-size: 30px;
     color: #263281;
     font-family:'Comic Sans MS';
+    line-height: 1rem;
 }
 .bgmore2{
     font-size: 22px;
@@ -58,13 +59,39 @@
 .frame{
     border: 10px solid #806958;
 }
-.img{
-    border-bottom-left-radius: .25rem;
-    border-top-left-radius: .25rem;
-    max-width: 100%;
-    height: auto;
+.card{
+    display: flex;
+    border: 1px solid #806958;
+    margin-bottom: 1rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
-.card {
+.cardleft{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.nblock{
+    display: block;
+}
+.pad {
+    padding: 1.5rem ;
+}
+.center{
+    padding-right: 1rem ;
+    padding-left: 1rem ;
+    margin-right: auto ;
+    margin-left: auto ;
+}
+.photo{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.ccard {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -75,11 +102,7 @@
     border: 1px solid #806958;
     border-radius: .25rem;
 }
-.cardlevel1{
-    flex: 0 0 auto;
-    width: 33.33%;
-}
-.cardlevel2{
-    flex: 0 0 auto;
-    width: 66.67%;
+.card-img{
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
 }
