@@ -4,7 +4,7 @@
 }
 .navibar a {
     float: right;
-    color: #fee7d9;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -12,7 +12,7 @@
     font-family:'Comic Sans MS';
 }
 .navibar a:hover {
-    background-color: #fee7d9;
+    background-color: white;
     color: #263281;
 }
 .bg {
